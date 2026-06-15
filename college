@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class college
+{
+    String name;
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        college a=new college();
+        System.out.println("Enter the name of the college:");
+        a.name=sc.nextLine();
+        System.out.println("College name: "+a.name);
+        sc.close();
+    }
+}
