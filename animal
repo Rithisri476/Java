@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class animal
+{
+    String name;
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        animal a=new animal();
+        System.out.println("Enter the name of the animal:");
+        a.name=sc.nextLine();
+        System.out.println("Animal name: "+a.name);
+        sc.close();
+    }
+}
